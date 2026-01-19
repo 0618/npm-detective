@@ -2,7 +2,7 @@
   "name": "npm-detective",
   "version": "0.1.0",
   "description": "An MCP server that helps you find and analyze NPM packages using npms.io",
-  "private": true,
+  "private": false,
   "type": "module",
   "bin": {
     "npm-detective": "./dist/index.js"
