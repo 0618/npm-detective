@@ -28,6 +28,24 @@ A Model Context Protocol (MCP) server that helps you find and analyze NPM packag
 
 ## Usage
 
+### Quick Start (npx)
+
+If you have published this to NPM, anyone can run it directly:
+
+```json
+{
+  "mcpServers": {
+    "npm-detective": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "npm-detective"
+      ]
+    }
+  }
+}
+```
+
 ### Local Execution (Manual)
 
 You can run the server directly on stdio:
